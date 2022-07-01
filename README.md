@@ -23,7 +23,17 @@ The challenge of VBA development in this module was improving on some of the mor
 </TABLE>
 The left image above displays the time consumed to run the code from the initial module activity, while the code on the right displays the time after code refactoring for performance improvements. Looping the FOR statements and creation of the tickerIndex to reduce the amount of iterations improved code performance by just over 84% for the 2017 data!
 <p></p>
-
+<TABLE align="center" CELLSPACING="20">
+<TR>
+<TD><p align="center">
+    <img src="https://github.com/cb19weber/stock-analysis/blob/main/resources/Module_Green_Stocks_2018.png" />
+    </p></TD>
+<TD><p align="center">
+    <img src="https://github.com/cb19weber/stock-analysis/blob/main/resources/VBA_Challenge_2018.png" />
+    </p></TD>
+</TR>
+</TABLE>
+The second set of images display the time variance in the coding for iterating through the 2018 dataset.
 
 ### Challenges and Difficulties Encountered
 
