@@ -33,16 +33,10 @@ The left image above displays the time consumed to run the code from the initial
     </p></TD>
 </TR>
 </TABLE>
-The second set of images display the time variance in the coding for iterating through the 2018 dataset.
+The second set of images display the time variance in the coding for iterating through the 2018 dataset. The improvement in code performance demonstrated a similar improvement of just under 82%.
 
 ### Challenges and Difficulties Encountered
+One of the challenges I had in developing the VBA code was an additional desire to refactor the challenge code (and actually the module code as well) to make the VBA array of tickers a bit more dynamic. My desire was to create a code that would grab all <i>unique</i> tickers from the total dataset and then populate a variable sized array out of those values. I was able to grab unique values by copying the ticker column and then removing duplicates. I was additionally able to populate the array using the unique values. Where I ran into trouble is trying to declare a variable sized array. I attempted to create a variable that would serve as an integer to replace the constant in the declaration, but was given a compile error. The only way I was able to get around this was to simply declare the VBA array for a larger potential number of tickers than I knew I needed.
 
 ## Results
-
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-
-- What can you conclude about the Outcomes based on Goals?
-
-- What are some limitations of this dataset?
-
-- What are some other possible tables and/or graphs that we could create?
+I am quite please with the coding performance improvements acheived through better logic, and that is definitely something I want to use in future coding projects. I am also pleased that I was at least able to build in some functionality improvements into the challenge that overcome some of the limitations discussed above.
