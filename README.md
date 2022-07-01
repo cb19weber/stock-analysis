@@ -11,7 +11,7 @@ The purpose of the macro programmed into the spreadsheet is to make better use o
 The challenge of VBA development in this module was improving on some of the more basic Excel knowledge to automate routine table building. The specific focus of much of the module was to create efficient code that would summarize the data while not consuming unnecessary memory. In order to accomplish this, the challenge really became to go through the logic of the intial code developed in the module and try to refine it in the challenge in order to output the same results, but with better performance. A start and end timer was implemented into the code to measure results of performance.
 
 ### Analysis of Outcomes Based on Coding Improvements
-<TABLE BORDER="0" align="center" CELLSPACING="10">
+<TABLE BORDER=NONE align="center" CELLSPACING="20">
 <TR>
 <TD><p align="center">
     <img src="https://github.com/cb19weber/stock-analysis/blob/main/resources/Module_Green_Stocks_2017.png" />
