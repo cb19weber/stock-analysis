@@ -21,6 +21,8 @@ The challenge of VBA development in this module was improving on some of the mor
     </p></TD>
 </TR>
 </TABLE>
+The left image above displays the time consumed to run the code from the initial module activity, while the code on the right displays the time after code refactoring for performance improvements. Looping the FOR statements and creation of the tickerIndex to reduce the amount of iterations improved code performance by just over 84% for the 2017 data!
+<p></p>
 
 
 ### Challenges and Difficulties Encountered
